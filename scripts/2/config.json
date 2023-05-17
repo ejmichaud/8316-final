@@ -1,0 +1,31 @@
+{
+  "D": 20000,
+  "activation": "Tanh",
+  "batch_size": 512,
+  "data_dir": "/om/user/ericjm/results/class/8.316/final/all-0/",
+  "depth": 3,
+  "device": {
+    "py/reduce": [
+      {
+        "py/type": "torch.device"
+      },
+      {
+        "py/tuple": [
+          "cuda",
+          0
+        ]
+      }
+    ]
+  },
+  "dropout": 0.0,
+  "dtype": {
+    "py/object": "torch.dtype"
+  },
+  "epochs": 350,
+  "lr": 0.0001,
+  "seed": 0,
+  "size": 32,
+  "test_samples": 5000,
+  "verbose": true,
+  "width": 50
+}

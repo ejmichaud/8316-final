@@ -1,0 +1,4 @@
+INFO - sparse-parity-v4 - Running command 'run'
+INFO - sparse-parity-v4 - Started run with ID "2"
+Epochs:   5%|▌         | 18/350 [00:07<02:04,  2.66it/s]]
+INFO - sparse-parity-v4 - Completed after 0:02:17

@@ -1,0 +1,83 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/net/vast-storage/scratch/vast/tegmark/ericjm/class/8.316/final/scripts",
+    "dependencies": [
+      "numpy==1.23.5",
+      "sacred==0.8.4",
+      "torch==2.0.1",
+      "tqdm==4.65.0"
+    ],
+    "mainfile": "train.py",
+    "name": "sparse-parity-v4",
+    "repositories": [],
+    "sources": [
+      [
+        "train.py",
+        "_sources/train_5c4f45cf45f0bcca4990c46f4da79191.py"
+      ]
+    ]
+  },
+  "heartbeat": "2023-05-13T16:13:29.224976",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
+    "gpus": {
+      "driver_version": "460.67",
+      "gpus": [
+        {
+          "model": "Quadro RTX 6000",
+          "persistence_mode": true,
+          "total_memory": 24220
+        }
+      ]
+    },
+    "hostname": "node082",
+    "os": [
+      "Linux",
+      "Linux-3.10.0-1062.el7.x86_64-x86_64-with-glibc2.17"
+    ],
+    "python_version": "3.9.16"
+  },
+  "meta": {
+    "command": "run",
+    "config_updates": {
+      "verbose": true
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": ".",
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": "run",
+      "UPDATE": [
+        "verbose=True"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2023-05-13T16:11:12.163002",
+  "status": "COMPLETED",
+  "stop_time": "2023-05-13T16:13:29.223929"
+}
